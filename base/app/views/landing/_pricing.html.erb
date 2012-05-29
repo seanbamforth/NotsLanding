@@ -1,1 +1,39 @@
-<div id="pricing">pricing</div>
+<div id="pricing">
+	<% # if include free %>
+	<div id="pricing_section">
+		<h2>Free Trial</h2>
+		<p>
+			Try all of the features in <%= @application_name %> free and at no obligation for 30 days - until <%= @trial_expiry_date.strftime("%e %B %Y") %>.
+		</p>
+		<p>
+			<a href="/subscribe?pricing=free">Sign up for a free trial</a>
+		</p>
+	</div>
+	<% # end %>
+
+	<% # if include monthly %>
+	<div id="pricing_section">
+		<h2>Pay Monthly</h2>
+		<p>
+			Subscribe monthly to all of the features in <%= @application_name %> and spread the payments. 
+		</p>
+		<p>
+			To unsubcribe just let us know.
+			<br /><a href="/subscribe?pricing=monthly">Sign up for a monthly subscription.</a>
+		</p>
+	</div>
+	<% # end %>
+	
+	<% # if include annual %>
+	<div id="pricing_section">
+		<h2>Annual Membership</h2>
+		<p>
+			Get all of the features in <%= @application_name %> for the year ahead, with minimum accounting hassle until <%= @annual_membership_expiry.strftime("%e %B %Y") %>.
+		</p>
+		<p>
+			We'll remind you a month before your subscription is up.
+			<br /><a href="/subscribe?pricing=annual">Sign up for an annual membership.</a>
+		</p>
+	</div>
+	<% # end %>
+</div>

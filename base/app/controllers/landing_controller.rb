@@ -17,6 +17,8 @@ class LandingController < ApplicationController
 
   def signup
     @application_name = "My great MVP"
+    @trial_expiry_date = Time.now + 1.month - 1.day
+    @annual_membership_expiry = Time.now + 1.year - 1.day
   end
 
   def home
