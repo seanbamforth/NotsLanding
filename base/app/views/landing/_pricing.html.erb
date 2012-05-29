@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 <div id="pricing">
 	<% # if include free %>
-	<div id="pricing_section">
+	<div class="pricing-block">
 		<h2>Free Trial</h2>
 		<p>
 			Try all of the features in <%= @application_name %> free and at no obligation for 30 days - until <%= @trial_expiry_date.strftime("%e %B %Y") %>.
@@ -13,7 +12,7 @@
 	<% # end %>
 
 	<% # if include monthly %>
-	<div id="pricing_section">
+	<div class="pricing-block best">
 		<h2>Pay Monthly</h2>
 		<p>
 			Subscribe monthly to all of the features in <%= @application_name %> and spread the payments. 
@@ -26,7 +25,7 @@
 	<% # end %>
 	
 	<% # if include annual %>
-	<div id="pricing_section">
+	<div class="pricing-block">
 		<h2>Annual Membership</h2>
 		<p>
 			Get all of the features in <%= @application_name %> for the year ahead, with minimum accounting hassle until <%= @annual_membership_expiry.strftime("%e %B %Y") %>.
@@ -38,6 +37,3 @@
 	</div>
 	<% # end %>
 </div>
-=======
-<div class="pricing">pricing</div>
->>>>>>> various changes - look and feel.

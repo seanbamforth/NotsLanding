@@ -183,19 +183,23 @@ padding:3px;
 
 }
 
-.signup {
-	border: 1px black;
-	background-color: green;
-	border-radius: 5px;
-	font-size:larger;
-	padding: 20px;
-	width: 400px;
-	margin:0 auto;
-}
-
 .video-inner
 {
 
+}
+
+.pricing-block {
+	float: left;
+	width: 260px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 5px;
+	height: 300px;
+	background-color: white;
+}
+
+.pricing-block.best {
+	background-color: red;
 }
 
 .invite
