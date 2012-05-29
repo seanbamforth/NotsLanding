@@ -1,23 +1,30 @@
-
-
 <html>
 
 <head>
-	<title><%= application_name %></title>	
+	<title>
+		<%= render :partial => "appname" %>
+	</title>	
 </head>
 
 <body>
 
 <div id="container">
 
-	<div id="menu">
-	</div>
+	<%= render :partial => "menu" %>
+	<%= render :partial => "header" %>
+ 	<%= render :partial => "tagline" %>
+	<%= render :partial => "summary" %>
+	<%= render :partial => "features" %>       
 
-<% if including_signup? %>
 	<%= render :partial => "signup", :locals => { :signup_params => signup_params } %>
-<% end %> 
+	<%= render :partial => "video" %>
+	<%= render :partial => "invite" %>  
+	<%= render :partial => "bullets" %>
+	<%= render :partial => "slideshow" %>
 	
+	<%= render :partial => "pricing" %>  
 
+	<%= render :partial => "footer" %>
 </div>
 
 </body>
