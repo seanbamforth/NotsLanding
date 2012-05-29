@@ -11,8 +11,11 @@ class LandingController < ApplicationController
   end
 
   def index 
-    @video_url = "http://www.youtube.com/embed/FbfqbEG4-ng"
-    #width="560" height="315" src="
+    @application_name = "My great MVP" 
+    @video_url = "http://www.youtube.com/embed/FbfqbEG4-ng" #TODO-might want to set dimensions? #width="560" height="315" src="    
+  end
+
+  def signup
     @application_name = "My great MVP"
   end
 

@@ -1,6 +1,7 @@
 Base::Application.routes.draw do
   get "landing/hello"
   get "landing/home"
+  get "landing/signup"
 
   root :to => "landing#index"
 
