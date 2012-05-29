@@ -12,7 +12,10 @@ class LandingController < ApplicationController
 
   def index 
     @application_name = "My great MVP" 
-    @video_url = "http://www.youtube.com/embed/FbfqbEG4-ng" #TODO-might want to set dimensions? #width="560" height="315" src="    
+    @video_url = "http://www.youtube.com/embed/Exkt9KO56AU" #TODO-might want to set dimensions? #width="560" height="315" src="    
+
+    @trial_expiry_date = Time.now + 1.month - 1.day
+    @annual_membership_expiry = Time.now + 1.year - 1.day
   end
 
   def signup
