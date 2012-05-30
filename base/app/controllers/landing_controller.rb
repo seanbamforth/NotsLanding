@@ -2,11 +2,23 @@ class LandingController < ApplicationController
   def hello
   end
 
+  def page(layout)
+    s = String.new()
+    layout.each do |part|
+      s += render_to_string :partial => "#{part.to_s}.html.erb"
+    end
+    return s
+  end
+
+  def index 
+  end
+
   def home
-    #s = ""
-    #s += render_to_string :partial => "menu.html.erb"
-    #s += render_to_string :partial => "menu.html.erb"
-    #render :text => s
+    render :text => (page ([
+      :menu , 
+      :menu , 
+      :menu 
+    ]))
 
     #section :menu
     #section :main  

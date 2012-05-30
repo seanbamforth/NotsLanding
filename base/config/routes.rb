@@ -1,7 +1,8 @@
 Base::Application.routes.draw do
   get "landing/hello"
-
   get "landing/home"
+
+  root :to => "landing#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
