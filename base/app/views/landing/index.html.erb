@@ -1,31 +1,50 @@
-<html>
-
-<head>
-	<title><%= @application_name %></title>
-</head>
-
-<body>
-
-<div id="container">
+<div class="menu_section">
 	<%= render :partial => "appname" %>
 	<%= render :partial => "menu" %>
-	<%= render :partial => "header" %>
- 	<%= render :partial => "tagline" %>
-	<%= render :partial => "summary" %>
-	<%= render :partial => "features" %>       
-
-	<%= render :partial => "signup" %>
-	<%= render :partial => "tagline" %>
-	<%= render :partial => "video", :locals => { :video_url => @video_url } %>
-	<%= render :partial => "bullets" %>
-	<%= render :partial => "slideshow" %>
-	
-	<%= render :partial => "pricing" %>  
-	<%= render :partial => "invite" %>  
-
-	<%= render :partial => "footer" %>
 </div>
 
-</body>
+<div class="section">
+	<%= render :partial => "header" %>
+</div>
 
-</html>
+<div class="section">
+ 	<%= render :partial => "tagline" %>
+</div>
+
+<div class="section">
+<%= render :partial => "summary" %>
+<%= render :partial => "video", :locals => { :video_url => @video_url } %>
+</div>
+
+<div class="feature_section">
+<%= render :partial => "features" %> 
+</div>
+
+<div class="section">
+<%= render :partial => "signup" %>
+</div>
+
+<div class="section">
+<%= render :partial => "tagline" %>
+</div>
+
+<div class="section">
+<%= render :partial => "bullets" %>
+</div>
+
+<div class="section">
+<%= render :partial => "slideshow" %>
+</div>
+
+<div class="section">
+
+<%= render :partial => "pricing" %>  
+</div>
+
+<div class="section">
+<%= render :partial => "invite" %>  
+</div>
+
+<div class="footer_section">
+<%= render :partial => "footer" %>
+</div>
