@@ -110,19 +110,29 @@ height: 20px;
 
 .menu_section {
 	background-color: black;
-	margin-bottom: 4px;
 	color:white;
 	font-size: 20px;
 	width: 100%;
 	padding-top: 20px;
 	height: 50px;
 	clear:both;
+	-webkit-box-shadow: 0px 6px 10px rgba(50, 50, 50, 0.57);
+	-moz-box-shadow:    0px 6px 10px rgba(50, 50, 50, 0.57);
+	box-shadow:         0px 6px 10px rgba(50, 50, 50, 0.57);
+	z-index: 10;
 }
 
-.section {
-	background-color: #c6ffc6;
+.header-section {
+	background-color: #90ff90;
 	width: 100%;
 	padding-top: 20px;
+	padding-bottom: 20px;
+	-webkit-box-shadow: 0px 12px 20px rgba(50, 50, 50, 0.57);
+	-moz-box-shadow:    0px 12px 20px rgba(50, 50, 50, 0.57);
+	box-shadow:         0px 12px 20px rgba(50, 50, 50, 0.57);}
+
+.section {
+	width: 100%;
 }
 
 .appname{
@@ -150,6 +160,7 @@ padding:3px;
 
 .header {
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 .tagline
@@ -178,36 +189,49 @@ padding:3px;
 
 }
 
-.signup
-{
+.signup {
+	font-size: 36px;
+	font-family: 'Droid Serif', serif;
+	width: 100%;
+	text-align: center;
+	margin: -0.5em 0px;
+	}
 
+.signup .btn
+{
+	font-size: 24px;
+	font-family: 'Droid Serif', serif;
+	width: 400px;
 }
 
-.video-inner
-{
-
-}
 
 .pricing-block {
 	float: left;
-	width: 260px;
+	width: 250px;
 	margin: 5px;
-	padding: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	border-radius: 5px;
 	height: 300px;
 	background-color: white;
+	border: 2px solid;
+	border-color: #888888;
 }
 
 .pricing-block.best {
-	background-color: red;
-}
+	margin: 5px;
+	width: 270px;
+	border: 2px solid;
+	border-color: #444444;
+	height: 340px;
+	-webkit-box-shadow: 0px 4px 30px rgba(50, 50, 50, 0.57);
+	-moz-box-shadow:    0px 4px 30px rgba(50, 50, 50, 0.57);
+	box-shadow:         0px 4px 30px rgba(50, 50, 50, 0.57);}
 
 .invite
-{
-
-}
-
-.invite-inner
 {
 
 }
@@ -217,17 +241,8 @@ padding:3px;
 
 }
 
-.bullets-inner
-{
-
-}
 
 .slideshow
-{
-
-}
-
-.slideshow-inner
 {
 
 }
@@ -237,17 +252,8 @@ padding:3px;
 
 }
 
-.pricing-inner
-{
-
-}
-
 .footer
 {
 
 }
 
-.footer-inner
-{
-
-}

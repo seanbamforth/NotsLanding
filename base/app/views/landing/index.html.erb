@@ -8,17 +8,13 @@
 	</div>
 </div>
 
-<div class="section">
-	<div class="centre-960">
-		<%= render :partial => "header" %>
-		<div class="clear"></div>
-	</div>
-</div>
-
-<div class="section">
+<div class="header-section">
 	<div class="centre-960">
 		<%= render :partial => "tagline" %>
 		<%= render :partial => "video", :locals => { :video_url => @video_url } %>
+		<div class="clear"></div>
+
+		<%= render :partial => "header" %>
 		<div class="clear"></div>
 	</div>
 </div>
