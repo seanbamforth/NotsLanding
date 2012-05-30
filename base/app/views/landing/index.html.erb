@@ -1,51 +1,94 @@
 <% content_for(:title, "Welcome to #{@application_name}") %>
 
 <div class="menu_section">
-	<%= render :partial => "appname" %>
-	<%= render :partial => "menu" %>
+	<div class="centre-960">
+		<%= render :partial => "appname" %>
+		<%= render :partial => "menu" %>
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="section">
-	<%= render :partial => "header" %>
+	<div class="centre-960">
+		<%= render :partial => "header" %>
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="section">
- 	<%= render :partial => "tagline" %>
+	<div class="centre-960">
+		<%= render :partial => "tagline" %>
+		<%= render :partial => "video", :locals => { :video_url => @video_url } %>
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="section">
-<%= render :partial => "summary" %>
-<%= render :partial => "video", :locals => { :video_url => @video_url } %>
-</div>
-
-<div class="feature_section">
-<%= render :partial => "features" %> 
-</div>
-
-<div class="section">
-<%= render :partial => "signup" %>
+	<div class="centre-960">
+		<%= render :partial => "signup" %>
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="section">
-<%= render :partial => "tagline" %>
+	<div class="centre-960">
+		<%= render :partial => "features" %> 
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="section">
-<%= render :partial => "bullets" %>
+	<div class="centre-960">
+		<%= render :partial => "summary" %>
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="section">
-<%= render :partial => "slideshow" %>
+	<div class="centre-960">
+		<%= render :partial => "signup" %>
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="section">
-	<%= render :partial => "pricing" %>  
+	<div class="centre-960">
+		<%= render :partial => "tagline" %>
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="section">
-<%= render :partial => "invite" %>  
+	<div class="centre-960">
+		<%= render :partial => "bullets" %>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="centre-960">
+		<%= render :partial => "slideshow" %>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="centre-960">
+		<%= render :partial => "pricing" %>  
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="section">
+	<div class="centre-960">
+		<%= render :partial => "invite" %>  
+		<div class="clear"></div>
+	</div>
 </div>
 
 <div class="footer_section">
-	<%= render :partial => "footer" %>
+	<div class="centre-960">
+		<%= render :partial => "footer" %>
+	</div>
 </div>
+<div class="clear"></div>

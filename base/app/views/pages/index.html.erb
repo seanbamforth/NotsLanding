@@ -8,14 +8,14 @@
 
 <body>
 
-<div id="container">
+<div class="container">
 
-	<div id="menu">
+	<div class="menu"">
 	</div>
 
 <% if including_signup? %>
 	<%= render :partial => "signup", :locals => { :signup_params => signup_params } %>
-	<div id="signup">
+	<div class="signup">
 		<%= link_to "signup", "/signup" %>
 	</div>
 <% end %> 
