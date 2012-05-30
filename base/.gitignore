@@ -13,6 +13,6 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-database.yml
+/base/config/database.yml
 Gemfile
 .rvmrc
