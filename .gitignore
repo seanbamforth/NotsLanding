@@ -5,17 +5,17 @@
 #   git config --global core.excludesfile ~/.gitignore_global
 
 # Ignore Gemfile
-Gemfile
-Gemfile.lock
+/base/Gemfile
+/base/Gemfile.lock
 
 # Ignore database.yml
 /base/config/database.yml
 
 /.bundle
-/db/*.sqlite3
+/base/db/*.sqlite3
 
-/log/*.log
-/tmp
+/base/log/*.log
+/base/tmp
 
 #config special things
 .rvmrc
