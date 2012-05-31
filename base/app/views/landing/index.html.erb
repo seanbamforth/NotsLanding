@@ -1,7 +1,6 @@
 <% content_for(:title, "Welcome to #{@application_name}") %>
 
 <div class="above shadow">
-
 	<div class="menu_section shadow">
 		<div class="centre-960">
 			<%= render :partial => "appname" %>
@@ -20,31 +19,37 @@
 			<div class="clear"></div>
 		</div>
 	</div>
-</div>
-
-	<div class="section">
-		<div class="centre-960">
-			<%= render :partial => "signup" %>
-			<div class="clear"></div>
-		</div>
-	</div>
 </div> 
 
-<div class="section">
+<div class="on-shadow">
+	<div class="centre-960">
+		<%= render :partial => "signup" %>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="section shadow">
 	<div class="centre-960">
 		<%= render :partial => "features" %> 
 		<div class="clear"></div>
 	</div>
 </div>
 
-<div class="section">
+<div class="section on-shadow">
+	<div class="centre-960">
+		<%= render :partial => "signup" %>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="section shadow">
 	<div class="centre-960">
 		<%= render :partial => "summary" %>
 		<div class="clear"></div>
 	</div>
 </div>
 
-<div class="section">
+<div class="section on-shadow">
 	<div class="centre-960">
 		<%= render :partial => "signup" %>
 		<div class="clear"></div>

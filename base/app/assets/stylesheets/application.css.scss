@@ -161,7 +161,7 @@ padding:3px;
 
 .header {
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .topgap {
@@ -185,7 +185,6 @@ padding:3px;
 
 .summary
 {
-
 }
 
 .images-left img{
@@ -202,16 +201,18 @@ padding:3px;
 
 .features
 {
-	margin-top:00px;
+	padding-top:10px;
+	padding-bottom:40px;
 }
 
 .feature {
 	float: left; 
 	width: 220px;
 	height: 120px;
-	margin-top: 40px;
+	margin-top: 10px;
 	padding-right: 20px;
 	padding-left: 60px;
+	margin-bottom:20px;
 	background-repeat:no-repeat;
 	background-position: 5px 10px;
 	border-left: 2px dotted;
@@ -222,12 +223,16 @@ padding:3px;
 	background-image:url('emblem-mail.png');
 }
 
+.on-shadow {
+	margin: -10px 0px;
+	margin-bottom: -30px;
+}
+
 .signup {
 	font-size: 36px;
 	font-family: 'Droid Serif', serif;
 	width: 100%;
 	text-align: center;
-	margin: -50px 0px;
 	}
 
 .signup .btn
