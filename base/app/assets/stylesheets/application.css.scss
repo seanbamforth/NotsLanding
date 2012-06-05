@@ -23,34 +23,6 @@ body{
 	min-width:750px;
 }
 
-h1, h2, h3, h4 {
-	font-family: 'Droid Serif', serif;
-	font-weight: 400;
-}
-
-h1 {
-	font-size:48px;
-	padding-top:10px;
-	padding-bottom:10px;
-}
-
-h2 {
-	font-size:32px;
-	padding-top:10px;
-	padding-bottom:10px;
-}
-
-h3 {
-    padding-top:6px;
-    padding-bottom:6px;
-}
-
-h4 {
-    padding-top:6px;
-    padding-bottom:12px;
-    text-decoration:underline;
-}
-
 .footer {
 	width: 800px;
 	font-size:12px;
@@ -127,6 +99,7 @@ height: 20px;
 
 .above {
 	background-color: orange;
+	background-image:url('overlays/05.png');
 }
 
 .shadow {
@@ -176,6 +149,14 @@ padding:3px;
 	text-align: justify;
 }
 
+.tagline p {
+	font-size: 18px;
+}
+
+.tagline li {
+	font-size: 18px;
+}
+
 .video
 {
 	width: 560px;
@@ -195,6 +176,23 @@ padding:3px;
 .images-right img{
 	float: right;
 	margin-left: 20px;
+}
+
+
+.tagline ul
+{
+	list-style-type: none;
+	padding: 0;
+	padding-top: 10px;
+	margin: 0;
+}
+
+.tagline li {
+	padding-left: 50px;
+	background-image:url('globulation_2.png');
+	background-repeat:no-repeat;
+	background-position: 20px 2px;
+	height: 30px;
 }
 
 
@@ -273,12 +271,6 @@ padding:3px;
 {
 
 }
-
-.bullets
-{
-
-}
-
 
 .slideshow
 {
