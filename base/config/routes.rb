@@ -1,5 +1,6 @@
 Base::Application.routes.draw do
   get "landing/hello"
+  get "landing/test"
   get "landing/home"
   get "landing/index"
   get "landing/signup"

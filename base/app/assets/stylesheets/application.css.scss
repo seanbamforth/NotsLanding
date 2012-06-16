@@ -267,6 +267,69 @@ padding:3px;
 	-moz-box-shadow:    0px 4px 30px rgba(50, 50, 50, 0.57);
 	box-shadow:         0px 4px 30px rgba(50, 50, 50, 0.57);}
 
+
+.list_carousel {
+	background-color: #ccc;
+	margin: 0 0 30px 60px;
+	width: 360px;
+}
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	background-color: #eee;
+	border: 5px solid #999;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	margin: 6px;
+	display: block;
+	float: left;
+}
+.list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.prev {
+	float: left;
+	margin-left: 10px;
+}
+.next {
+	float: right;
+	margin-right: 10px;
+}
+.pager {
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.pager a {
+	margin: 0 5px;
+	text-decoration: none;
+}
+.pager a.selected {
+	text-decoration: underline;
+}
+.timer {
+	background-color: #999;
+	height: 6px;
+	width: 0px;
+}
+
+
+
+
+
 .invite
 {
 
@@ -274,7 +337,7 @@ padding:3px;
 
 .slideshow
 {
-
+	width: 600px;
 }
 
 .pricing
@@ -286,4 +349,45 @@ padding:3px;
 {
 
 }
+
+.html_carousel {
+	padding: 15px 0 15px 40px;
+}
+
+.html_carousel div.slide {
+	position: relative;
+}
+.html_carousel div.slide div {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	display: none;
+	position: absolute;
+	bottom: 0;
+}
+.html_carousel div.slide h4 {
+	font-size: 35px;
+	padding: 30px 0 0 100px;
+}
+.html_carousel div.slide p {
+	font-size: 16px;
+	padding: 0 0 30px 100px;
+}
+.html_carousel div.slide h4, .html_carousel div.slide p {
+	color: white;
+	margin: 0;
+}
+
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+#slideshow1 img {
+	width: 400px;
+	height: 300px;
+}
+
+
+
+
 

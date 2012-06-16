@@ -2,6 +2,9 @@ class LandingController < ApplicationController
   def hello
   end
 
+  def test
+  end
+
   def page(layout)
     s = String.new()
     layout.each do |part|
